@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263A60BF20EDED870007C54F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263A60BE20EDED870007C54F /* AppDelegate.swift */; };
+		263A60C120EDED870007C54F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263A60C020EDED870007C54F /* ViewController.swift */; };
+		263A60C320EDED870007C54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263A60C220EDED870007C54F /* Assets.xcassets */; };
+		263A60C620EDED870007C54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263A60C420EDED870007C54F /* Main.storyboard */; };
+		263A60CF20EDF42A0007C54F /* Press.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263A60CE20EDF42A0007C54F /* Press.swift */; };
+		263A60D520EE00020007C54F /* keypress.wav in Resources */ = {isa = PBXBuildFile; fileRef = 263A60D420EE00020007C54F /* keypress.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		263A60BB20EDED870007C54F /* clack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		263A60BE20EDED870007C54F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		263A60C020EDED870007C54F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		263A60C220EDED870007C54F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		263A60C520EDED870007C54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		263A60C720EDED870007C54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		263A60C820EDED870007C54F /* clack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = clack.entitlements; sourceTree = "<group>"; };
+		263A60CE20EDF42A0007C54F /* Press.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Press.swift; sourceTree = "<group>"; };
+		263A60D420EE00020007C54F /* keypress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = keypress.wav; path = ../../../../../Desktop/keypress.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		263A60B820EDED870007C54F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		263A60B220EDED860007C54F = {
+			isa = PBXGroup;
+			children = (
+				263A60BD20EDED870007C54F /* clack */,
+				263A60BC20EDED870007C54F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		263A60BC20EDED870007C54F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				263A60BB20EDED870007C54F /* clack.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		263A60BD20EDED870007C54F /* clack */ = {
+			isa = PBXGroup;
+			children = (
+				263A60D320EDFFF60007C54F /* assets */,
+				263A60BE20EDED870007C54F /* AppDelegate.swift */,
+				263A60C020EDED870007C54F /* ViewController.swift */,
+				263A60C220EDED870007C54F /* Assets.xcassets */,
+				263A60C420EDED870007C54F /* Main.storyboard */,
+				263A60C720EDED870007C54F /* Info.plist */,
+				263A60C820EDED870007C54F /* clack.entitlements */,
+				263A60CE20EDF42A0007C54F /* Press.swift */,
+			);
+			path = clack;
+			sourceTree = "<group>";
+		};
+		263A60D320EDFFF60007C54F /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				263A60D420EE00020007C54F /* keypress.wav */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		263A60BA20EDED870007C54F /* clack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 263A60CB20EDED870007C54F /* Build configuration list for PBXNativeTarget "clack" */;
+			buildPhases = (
+				263A60B720EDED870007C54F /* Sources */,
+				263A60B820EDED870007C54F /* Frameworks */,
+				263A60B920EDED870007C54F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clack;
+			productName = clack;
+			productReference = 263A60BB20EDED870007C54F /* clack.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		263A60B320EDED860007C54F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = mcknzcrg;
+				TargetAttributes = {
+					263A60BA20EDED870007C54F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 263A60B620EDED860007C54F /* Build configuration list for PBXProject "clack" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 263A60B220EDED860007C54F;
+			productRefGroup = 263A60BC20EDED870007C54F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				263A60BA20EDED870007C54F /* clack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		263A60B920EDED870007C54F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263A60D520EE00020007C54F /* keypress.wav in Resources */,
+				263A60C320EDED870007C54F /* Assets.xcassets in Resources */,
+				263A60C620EDED870007C54F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		263A60B720EDED870007C54F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263A60C120EDED870007C54F /* ViewController.swift in Sources */,
+				263A60BF20EDED870007C54F /* AppDelegate.swift in Sources */,
+				263A60CF20EDF42A0007C54F /* Press.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		263A60C420EDED870007C54F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				263A60C520EDED870007C54F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		263A60C920EDED870007C54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		263A60CA20EDED870007C54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		263A60CC20EDED870007C54F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = clack/clack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P73Z59T8PE;
+				INFOPLIST_FILE = clack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mcknzcrg.clack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		263A60CD20EDED870007C54F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = clack/clack.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = P73Z59T8PE;
+				INFOPLIST_FILE = clack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mcknzcrg.clack;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		263A60B620EDED860007C54F /* Build configuration list for PBXProject "clack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263A60C920EDED870007C54F /* Debug */,
+				263A60CA20EDED870007C54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		263A60CB20EDED870007C54F /* Build configuration list for PBXNativeTarget "clack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				263A60CC20EDED870007C54F /* Debug */,
+				263A60CD20EDED870007C54F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 263A60B320EDED860007C54F /* Project object */;
+}
