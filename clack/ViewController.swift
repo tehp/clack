@@ -18,15 +18,19 @@ class ViewController: NSViewController {
     }
     
     var clickSound: AVAudioPlayer?
-    let url = Bundle.main.url(forResource: "keypress", withExtension: "wav")!
+    let keypressSoundData = NSDataAsset(name: NSDataAsset.Name(rawValue: "keypress"))
     
     class func addGlobalMonitorForEvents(matching mask: NSEvent.EventTypeMask, handler block: @escaping (NSEvent) -> Void) -> Any? {
         return ViewController.self
     }
     
     func keyPressed() {
+        guard let soundData = keypressSoundData?.data else {
+            assertionFailure("Could not find the keypress file in the assets.")
+            return
+        }
         do {
-            clickSound = try AVAudioPlayer(contentsOf: url)
+            clickSound = try AVAudioPlayer(data: soundData)
             clickSound?.volume = Float(config_volume/10)
             clickSound?.play()
         } catch {
@@ -64,7 +68,6 @@ class ViewController: NSViewController {
         NSEvent.addGlobalMonitorForEvents(matching: [.keyDown]) { (event) in
             self.keyPressed()
         }
-
     }
 
     override var representedObject: Any? {
@@ -72,7 +75,4 @@ class ViewController: NSViewController {
         // Update the view, if already loaded.
         }
     }
-
-
 }
-

@@ -11,8 +11,6 @@
 		263A60C120EDED870007C54F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263A60C020EDED870007C54F /* ViewController.swift */; };
 		263A60C320EDED870007C54F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 263A60C220EDED870007C54F /* Assets.xcassets */; };
 		263A60C620EDED870007C54F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 263A60C420EDED870007C54F /* Main.storyboard */; };
-		263A60CF20EDF42A0007C54F /* Press.swift in Sources */ = {isa = PBXBuildFile; fileRef = 263A60CE20EDF42A0007C54F /* Press.swift */; };
-		263A60D520EE00020007C54F /* keypress.wav in Resources */ = {isa = PBXBuildFile; fileRef = 263A60D420EE00020007C54F /* keypress.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,8 +21,6 @@
 		263A60C520EDED870007C54F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		263A60C720EDED870007C54F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		263A60C820EDED870007C54F /* clack.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = clack.entitlements; sourceTree = "<group>"; };
-		263A60CE20EDF42A0007C54F /* Press.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Press.swift; sourceTree = "<group>"; };
-		263A60D420EE00020007C54F /* keypress.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = keypress.wav; path = ../../../../../Desktop/keypress.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,24 +53,14 @@
 		263A60BD20EDED870007C54F /* clack */ = {
 			isa = PBXGroup;
 			children = (
-				263A60D320EDFFF60007C54F /* assets */,
 				263A60BE20EDED870007C54F /* AppDelegate.swift */,
 				263A60C020EDED870007C54F /* ViewController.swift */,
 				263A60C220EDED870007C54F /* Assets.xcassets */,
 				263A60C420EDED870007C54F /* Main.storyboard */,
 				263A60C720EDED870007C54F /* Info.plist */,
 				263A60C820EDED870007C54F /* clack.entitlements */,
-				263A60CE20EDF42A0007C54F /* Press.swift */,
 			);
 			path = clack;
-			sourceTree = "<group>";
-		};
-		263A60D320EDFFF60007C54F /* assets */ = {
-			isa = PBXGroup;
-			children = (
-				263A60D420EE00020007C54F /* keypress.wav */,
-			);
-			path = assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,7 +122,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				263A60D520EE00020007C54F /* keypress.wav in Resources */,
 				263A60C320EDED870007C54F /* Assets.xcassets in Resources */,
 				263A60C620EDED870007C54F /* Main.storyboard in Resources */,
 			);
@@ -151,7 +136,6 @@
 			files = (
 				263A60C120EDED870007C54F /* ViewController.swift in Sources */,
 				263A60BF20EDED870007C54F /* AppDelegate.swift in Sources */,
-				263A60CF20EDF42A0007C54F /* Press.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,7 +266,7 @@
 				CODE_SIGN_ENTITLEMENTS = clack/clack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = P73Z59T8PE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = clack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mcknzcrg.clack;
@@ -298,7 +282,7 @@
 				CODE_SIGN_ENTITLEMENTS = clack/clack.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = P73Z59T8PE;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = clack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = mcknzcrg.clack;
